@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    font-size: 1.5rem;
+}
+
+.container-main{
+    padding: 10vh 10vw;
+}
+
+.nav{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 10vh;
+}
+
+.pfp{
+    width: 120px;
+}
+
+h1{
+    padding-left: 5%;
+    font-size: 1.6rem;
+    font-weight: 750;
+}
+
+@media screen and (max-width: 650px){
+    .nav{
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+
+    h1{
+        padding-left: 0%;
+    }
+}
+
+.intro-banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1100px){
+    .intro-banner{
+        flex-direction: column;
+    }
+
+    .contact{
+        padding-top: 5%;
+    }
+}
+
+
+.about{
+    font-size: 0.8rem;
+    max-width: 620px;
+}
+
+.about>a{
+    font-size: 0.8rem;
+}
+
+.contact>div{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
